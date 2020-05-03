@@ -1,6 +1,4 @@
-/*****************/
 /**** Global ****/
-/***************/
 
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +13,7 @@ a {
   text-decoration: none;
 }
 
-/*********************/
 /**** Navigation ****/
-/*******************/
 
 .navigation {
   display: flex;
@@ -49,9 +45,7 @@ nav a:visited {
   color: rgb(68, 120, 160);
 }
 
-/********************/
 /**** Blog Post ****/
-/******************/
 
 article {
   padding-top: 5px;
@@ -77,9 +71,7 @@ img {
   width: 500px;
 }
 
-/*******************/
 /**** Sections ****/
-/*****************/
 
 section {
   padding: 0;
@@ -122,7 +114,6 @@ header h2 {
   overflow: hidden;
   margin-top: 30px;
   max-height: 500px;
-  /* height: 100%; */
   box-sizing: border-box;
   box-shadow: 0 2px 10px #ccc;
 }
@@ -141,9 +132,7 @@ header h2 {
   );
 }
 
-/******************/
 /**** Buttons ****/
-/****************/
 
 .prev-next {
   display: flex;
@@ -166,9 +155,7 @@ button {
   box-shadow: 0 3px 10px #333;
 }
 
-/***********************/
 /**** Footer Menu *****/
-/*********************/
 
 footer {
   display: flex;
@@ -194,7 +181,6 @@ footer {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -220,9 +206,7 @@ footer {
   order: 3;
 }
 
-/******************/
 /**** Imports ****/
-/****************/
 
 @media (max-width: 900px) {
   main {

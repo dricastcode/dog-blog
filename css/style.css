@@ -13,9 +13,7 @@ a {
   text-decoration: none;
 }
 
-/*********************/
 /**** Navigation ****/
-/*******************/
 
 .navigation {
   display: flex;
@@ -47,9 +45,7 @@ nav a:visited {
   color: rgb(68, 120, 160);
 }
 
-/*************************/
 /**** Blog Post Link ****/
-/***********************/
 
 .post-content a {
   text-decoration: none;
@@ -87,9 +83,7 @@ img {
   width: 100%;
 }
 
-/*******************/
 /**** Sections ****/
-/*****************/
 
 section {
   padding: 0;
@@ -195,9 +189,7 @@ header h2 {
   color: #ccc;
 }
 
-/***********************/
 /**** Footer Menu *****/
-/*********************/
 
 footer {
   display: flex;
@@ -223,7 +215,6 @@ footer {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -249,9 +240,7 @@ footer {
   order: 3;
 }
 
-/******************/
 /**** Imports ****/
-/****************/
 
 @media (max-width: 900px) {
   main {
