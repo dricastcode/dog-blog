@@ -118,6 +118,13 @@ header h2 {
   font-weight: 500;
 }
 
+.photo-cred {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(235, 235, 235);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
 /* First Post */
 
 .blog-post {
@@ -241,6 +248,12 @@ footer {
 .box-2 {
   flex: 1;
   order: 2;
+}
+
+.photo-cred-ft {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(83, 83, 83);
 }
 
 .box-2 img {
