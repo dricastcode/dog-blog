@@ -57,7 +57,7 @@ nav a:visited {
 }
 
 button {
-  background-color: rgb(114, 186, 204);
+  background-color: rgb(125, 166, 177);
   border: none;
   border-radius: 8px;
   color: white;
@@ -151,6 +151,10 @@ header h2 {
   text-shadow: 2px 2px #333;
 }
 
+.post-content a {
+  color: #fff;
+}
+
 .post-content a:visited {
   color: #ccc;
 }
@@ -183,6 +187,10 @@ header h2 {
 .post-content-2 h2,
 .post-content-2 p {
   text-shadow: 2px 2px #333;
+}
+
+.post-content-2 a {
+  color: #fff;
 }
 
 .post-content-2 a:visited {
