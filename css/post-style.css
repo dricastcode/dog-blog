@@ -184,6 +184,16 @@ footer {
   align-items: center;
 }
 
+.box-1 a,
+.box-3 a {
+  color: rgba(52, 73, 94, 1);
+}
+
+.box-1 a:hover,
+.box-3 a:hover {
+  color: rgb(139, 186, 233);
+}
+
 .box-1 {
   flex: 1;
   order: 1;
@@ -204,6 +214,27 @@ footer {
 .box-3 {
   flex: 1;
   order: 3;
+}
+
+/**** Social Icons ****/
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 45px;
+  background-color: rgba(125, 194, 211, 0.3);
+}
+
+.fa {
+  padding: 20px;
+  color: rgb(109, 178, 194);
+}
+
+.fa:hover {
+  color: rgb(160, 227, 241);
 }
 
 /**** Imports ****/
