@@ -69,8 +69,8 @@ article {
   color: rgb(117, 117, 117);
 }
 
-img {
-  width: 500px;
+.post-photos {
+  width: 550px;
 }
 
 /**** Sections ****/
@@ -264,5 +264,8 @@ footer {
   }
   header h2 {
     font-size: 1.2rem;
+  }
+  .post-photos {
+    width: 350px;
   }
 }
