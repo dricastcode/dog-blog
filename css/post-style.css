@@ -10,6 +10,7 @@ body {
   grid-template-areas:
     "nav nav nav"
     "post post as"
+    "pn . ."
     ". ft .";
   color: #2d3f4b;
 }
@@ -20,6 +21,10 @@ body {
 
 .post-wrapper {
   grid-area: post;
+}
+
+.prev-next {
+  grid-area: pn;
 }
 
 aside {
@@ -85,11 +90,6 @@ nav li:hover {
   background-color: #6a99b8;
 }
 
-article h1 {
-  font-size: 30px;
-  color: #6a99b8;
-}
-
 button {
   background-color: #b5c3cc;
   border: none;
@@ -100,7 +100,6 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  /* width: 50%; */
 }
 
 button:hover {
@@ -125,6 +124,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.prev-next {
+  margin: 0;
 }
 
 aside {
@@ -181,14 +184,6 @@ aside a {
   padding: 10px;
 }
 
-.blog-post {
-  position: relative;
-  overflow: hidden;
-  margin-top: 30px;
-  padding: 0;
-  /* max-height: 500px; */
-}
-
 .post-content {
   position: absolute;
   left: 0;
@@ -206,4 +201,40 @@ aside a {
 footer p {
   font-size: 18px;
   margin: 50px;
+}
+
+@media (min-width: 900px) and (max-width: 1300px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 899px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main {
+  }
+  nav li {
+    font-size: 13px;
+  }
+  .topbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .topbar h2 {
+    font-size: 11px;
+    text-align: center;
+  }
+  .topbar h1 {
+    white-space: nowrap;
+    font-size: 20px;
+  }
+  header {
+    padding-left: 0;
+  }
 }
