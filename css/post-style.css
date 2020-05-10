@@ -217,8 +217,6 @@ footer p {
     flex-direction: column;
     justify-content: center;
   }
-  main {
-  }
   nav li {
     font-size: 13px;
   }
@@ -236,5 +234,9 @@ footer p {
   }
   header {
     padding-left: 0;
+  }
+  button {
+    padding: 10px 25px;
+    font-size: 10px;
   }
 }
