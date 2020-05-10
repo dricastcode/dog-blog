@@ -10,7 +10,6 @@ body {
   grid-template-areas:
     "nav nav nav"
     "post post as"
-    "pn . ."
     ". ft .";
   color: #2d3f4b;
 }
@@ -21,10 +20,6 @@ body {
 
 .post-wrapper {
   grid-area: post;
-}
-
-.prev-next {
-  grid-area: pn;
 }
 
 aside {
