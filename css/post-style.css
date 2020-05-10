@@ -222,6 +222,7 @@ footer p {
   }
   nav {
     margin: 10px;
+    white-space: nowrap;
   }
   .topbar {
     flex-direction: column;
