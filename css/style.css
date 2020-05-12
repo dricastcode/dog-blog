@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-/* Nav */
+/* Nav/Header */
 
 .topbar {
   display: flex;
@@ -87,6 +87,8 @@ nav li:hover {
   background-color: #6a99b8;
   color: #c6e0f0;
 }
+
+/* Blog Cards */
 
 .post-content a {
   color: #fff;
@@ -141,6 +143,25 @@ figcaption {
   font-size: 0.8em;
 }
 
+.blog-post {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.post-content {
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 10px #0c1216;
+}
+
+/* Side Content */
+
 aside {
   display: flex;
   flex-direction: column;
@@ -194,22 +215,7 @@ aside a {
   padding: 10px;
 }
 
-.blog-post {
-  position: relative;
-  overflow: hidden;
-  margin-top: 30px;
-  padding: 0;
-}
-
-.post-content {
-  position: absolute;
-  left: 0;
-  bottom: 70px;
-  padding: 0;
-  width: 100%;
-  color: #fff;
-  text-shadow: 2px 2px 10px #0c1216;
-}
+/* Footer */
 
 .bottom {
   text-align: center;
@@ -220,6 +226,8 @@ footer p {
   margin: 50px;
   color: #3e596b;
 }
+
+/* Media Queries */
 
 @media (min-width: 900px) and (max-width: 1300px) {
   body {
