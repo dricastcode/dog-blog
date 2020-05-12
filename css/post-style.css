@@ -55,7 +55,7 @@ header {
 
 header h1 {
   font-family: "Indie Flower", cursive;
-  font-size: 25px;
+  font-size: 30px;
   color: #2d3f4b;
 }
 
@@ -232,7 +232,7 @@ footer p {
   }
   .topbar h1 {
     white-space: nowrap;
-    font-size: 20px;
+    font-size: 26px;
   }
   header {
     padding-left: 0;
